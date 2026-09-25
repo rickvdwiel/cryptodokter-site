@@ -1,2 +1,5 @@
-# cryptodokter-site
-Statische demo van cryptodokter.nl. Alleen papier, geen financieel advies.
+# CryptoDokter
+
+Publieke momentopname van cryptodokter.nl.
+
+Alleen papier. Geen financieel advies. Deze pagina plaatst geen orders.

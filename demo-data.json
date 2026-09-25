@@ -1,0 +1,458 @@
+{
+ "generated_at": "2026-09-18 01:34 UTC",
+ "portfolio": {
+  "cash_eur": 10000.0,
+  "equity_eur": 10000.0,
+  "start_eur": 10000.0,
+  "rendement_pct": 0.0,
+  "open_posities": 0,
+  "realized_pnl_eur": 0.0,
+  "fees_paid_eur": 0.0,
+  "trades": 0,
+  "posities": []
+ },
+ "radar": {
+  "online": true,
+  "kandidaten": [
+   {
+    "symbol": "CIRCLED",
+    "score": 20.0,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 10.0,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "0.0003629",
+    "change_h24": 8191,
+    "liquidity_usd": 73926.02,
+    "volume_h24": 1177776.7,
+    "chain": "arc",
+    "url": "https://dexscreener.com/arc/0x2b8e46ac7037705129ff8a82bb685a4aed55589b411c0b8cb2e7b82fa68def2e",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   },
+   {
+    "symbol": "$EPEP",
+    "score": 20.0,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 10.0,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "0.0003107",
+    "change_h24": 496,
+    "liquidity_usd": 58363.27,
+    "volume_h24": 602878.62,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/bxrcbvpujtupbyw9sttfugrimkqmdezqspqbyxzrayqo",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   },
+   {
+    "symbol": "HODL",
+    "score": 18.0,
+    "parts": {
+     "x": 0.0,
+     "news": 15.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 3.0,
+     "reddit": 0.0
+    },
+    "risk": "iets (verhoogd risico)",
+    "price_usd": "0.00003652",
+    "change_h24": -12.08,
+    "liquidity_usd": 15064.55,
+    "volume_h24": 635022.81,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/3ptjukycraxvs4w1dqzbk6wjsuhcfdtvnyfyhwc2bexe",
+    "exchange": "",
+    "x_count": 0,
+    "news": 3
+   },
+   {
+    "symbol": "WCAT",
+    "score": 16.5,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 10.0,
+     "lev": 6.5,
+     "reddit": 0.0
+    },
+    "risk": "iets (verhoogd risico)",
+    "price_usd": "0.0001115",
+    "change_h24": 167,
+    "liquidity_usd": 32721.04,
+    "volume_h24": 323599.02,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/bvchlm4sek94d2xwqij2btgsswwzawddij1kduxszgj5",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   },
+   {
+    "symbol": "BUNNY",
+    "score": 15.5,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 10.0,
+     "lev": 5.5,
+     "reddit": 0.0
+    },
+    "risk": "iets (verhoogd risico)",
+    "price_usd": "0.0001113",
+    "change_h24": 170,
+    "liquidity_usd": 27315.32,
+    "volume_h24": 46271.87,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/9tkeojw4tdwsh5yyh1tdecb2zbvd3ayrbsbtmqujvvmh",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   },
+   {
+    "symbol": "OXOX",
+    "score": 0.8,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 0.8,
+     "reddit": 0.0
+    },
+    "risk": "RUG-ZONE!!",
+    "price_usd": "0.000004295",
+    "change_h24": -91.94,
+    "liquidity_usd": 4072.67,
+    "volume_h24": 101596.67,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/cfalrf1it84wnymwnzg26g9qdjzbxypxmjqsahontogj",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   },
+   {
+    "symbol": "9QBFGZ2LBVRBBU6SYDDVWXZ2CQFT3J43PB87HE2Y9VEZ",
+    "score": 0.0,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 0.0,
+     "reddit": 0.0
+    },
+    "risk": "onbekend/geen liquidity",
+    "price_usd": null,
+    "change_h24": null,
+    "liquidity_usd": 0,
+    "volume_h24": 0,
+    "chain": "",
+    "url": "",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   },
+   {
+    "symbol": "8RYR2NRYHE2APELWJF1NOLD9UUMTPY96MUUIVIUKPUMP",
+    "score": 0.0,
+    "parts": {
+     "x": 0.0,
+     "news": 0.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 0.0,
+     "reddit": 0.0
+    },
+    "risk": "onbekend/geen liquidity",
+    "price_usd": null,
+    "change_h24": null,
+    "liquidity_usd": 0,
+    "volume_h24": 0,
+    "chain": "",
+    "url": "",
+    "exchange": "",
+    "x_count": 0,
+    "news": 0
+   }
+  ]
+ },
+ "stocks": {
+  "online": true,
+  "aandelen": [
+   {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "score": 69.4,
+    "parts": {
+     "trend": 35.0,
+     "momentum": 14.4,
+     "rsi": 20.0,
+     "volume": 0.0
+    },
+    "risk": "rustig",
+    "price": 337.0,
+    "currency": "USD",
+    "change_pct": 3.19,
+    "rsi": 67.5,
+    "momentum_pct": 7.22,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "TSLA",
+    "name": "Tesla, Inc.",
+    "score": 67.6,
+    "parts": {
+     "trend": 35.0,
+     "momentum": 12.6,
+     "rsi": 20.0,
+     "volume": 0.0
+    },
+    "risk": "rustig",
+    "price": 366.2,
+    "currency": "USD",
+    "change_pct": 0.73,
+    "rsi": 55.1,
+    "momentum_pct": 6.3,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corporation",
+    "score": 55.0,
+    "parts": {
+     "trend": 35.0,
+     "momentum": 0.0,
+     "rsi": 20.0,
+     "volume": 0.0
+    },
+    "risk": "rustig",
+    "price": 219.34,
+    "currency": "USD",
+    "change_pct": 0.45,
+    "rsi": 53.0,
+    "momentum_pct": -2.66,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "META",
+    "name": "Meta Platforms, Inc.",
+    "score": 51.0,
+    "parts": {
+     "trend": 21.0,
+     "momentum": 30.0,
+     "rsi": 0.0,
+     "volume": 0.0
+    },
+    "risk": "rustig",
+    "price": 682.31,
+    "currency": "USD",
+    "change_pct": 5.89,
+    "rsi": 83.8,
+    "momentum_pct": 23.85,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "score": 48.6,
+    "parts": {
+     "trend": 35.0,
+     "momentum": 3.6,
+     "rsi": 10.0,
+     "volume": 0.0
+    },
+    "risk": "rustig",
+    "price": 497.75,
+    "currency": "USD",
+    "change_pct": 1.08,
+    "rsi": 46.8,
+    "momentum_pct": 1.8,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "score": 20.0,
+    "parts": {
+     "trend": 0.0,
+     "momentum": 0.0,
+     "rsi": 20.0,
+     "volume": 0.0
+    },
+    "risk": "rustig",
+    "price": 347.33,
+    "currency": "USD",
+    "change_pct": 4.43,
+    "rsi": 50.7,
+    "momentum_pct": -0.39,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "AMZN",
+    "name": "Amazon.com, Inc.",
+    "score": 15.5,
+    "parts": {
+     "trend": 14.0,
+     "momentum": 0.0,
+     "rsi": 0.0,
+     "volume": 1.5
+    },
+    "risk": "rustig",
+    "price": 251.19,
+    "currency": "USD",
+    "change_pct": -0.28,
+    "rsi": 36.3,
+    "momentum_pct": -5.2,
+    "exchange": "NasdaqGS"
+   },
+   {
+    "symbol": "ASML.AS",
+    "name": "ASML Holding N.V.",
+    "score": 8.4,
+    "parts": {
+     "trend": 0.0,
+     "momentum": 0.0,
+     "rsi": 0.0,
+     "volume": 8.4
+    },
+    "risk": "rustig",
+    "price": 1418.0,
+    "currency": "EUR",
+    "change_pct": -4.09,
+    "rsi": 36.3,
+    "momentum_pct": -9.44,
+    "exchange": "Amsterdam"
+   }
+  ]
+ },
+ "watchlist": {
+  "items": [
+   {
+    "symbol": "BTC",
+    "score": 25.0,
+    "parts": {
+     "x": 0.0,
+     "news": 15.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "79828.48",
+    "change_h24": null,
+    "liquidity_usd": 7982631862.61,
+    "volume_h24": 50.31,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/fbf6par8vv8bxpumvrnmszruqpsyxgzcapllsggagkgj",
+    "exchange": "BTC-EUR",
+    "x_count": 0,
+    "news": 4
+   },
+   {
+    "symbol": "ETH",
+    "score": 25.0,
+    "parts": {
+     "x": 0.0,
+     "news": 15.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "2253.89",
+    "change_h24": null,
+    "liquidity_usd": 1802854566.29,
+    "volume_h24": 50.31,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/f5g1bcpsut9cknmph9tnzqngh653hxmen9p3qbocmqpw",
+    "exchange": "ETH-EUR",
+    "x_count": 0,
+    "news": 12
+   },
+   {
+    "symbol": "SOL",
+    "score": 15.0,
+    "parts": {
+     "x": 0.0,
+     "news": 5.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "103.75",
+    "change_h24": null,
+    "liquidity_usd": 2178467017.6,
+    "volume_h24": 220753.85,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/gexzdqpydgczbqdjfcufe1fxc7xso184zwls5n4jmymi",
+    "exchange": "SOL-EUR",
+    "x_count": 0,
+    "news": 1
+   },
+   {
+    "symbol": "DOGE",
+    "score": 25.0,
+    "parts": {
+     "x": 0.0,
+     "news": 15.0,
+     "mom": 0.0,
+     "dex_pump": 0.0,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "0.08386",
+    "change_h24": null,
+    "liquidity_usd": 838432692.18,
+    "volume_h24": 200873.75,
+    "chain": "solana",
+    "url": "https://dexscreener.com/solana/9zpduztx1cdpwtafxsrc8bkdagr2oetzcptcsty6dq84",
+    "exchange": "DOGE-EUR",
+    "x_count": 0,
+    "news": 10
+   },
+   {
+    "symbol": "PEPE",
+    "score": 26.2,
+    "parts": {
+     "x": 0.0,
+     "news": 15.0,
+     "mom": 0.0,
+     "dex_pump": 1.2,
+     "lev": 10.0,
+     "reddit": 0.0
+    },
+    "risk": "ok-niveau",
+    "price_usd": "0.000003642",
+    "change_h24": 6.23,
+    "liquidity_usd": 27638276.04,
+    "volume_h24": 992940.55,
+    "chain": "ethereum",
+    "url": "https://dexscreener.com/ethereum/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
+    "exchange": "PEPE-EUR",
+    "x_count": 0,
+    "news": 9
+   }
+  ]
+ }
+}

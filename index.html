@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="CryptoDokter: ontdek vroege signalen met de interactieve radar en koersgrafiek. Alleen papier, geen financieel advies.">
+  <title>CryptoDokter — radar</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <script src="dashboard.js" defer></script>
+</head>
+<body data-mode="snapshot">
+  <a class="skip" href="#main">Naar dashboard</a>
+  <header class="header">
+    <a class="brand" href="#main"><span class="brand-icon" aria-hidden="true">+</span>Crypto<span>Dokter</span><small>RADAR</small></a>
+    <div class="header-status"><span class="paper">ALLEEN PAPIER</span><span id="mode-badge" class="mode">Momentopname</span></div>
+  </header>
+  <main id="main">
+    <div class="intro"><div><p class="eyebrow">SIGNALEN, GEEN BELOFTES</p><h1>Een blik onder de oppervlakte.</h1><p class="muted">Volg aandacht, koersbeweging en liquiditeit. Onderzoek voordat je conclusies trekt.</p></div><div class="stamp"><span id="stamp">Gegevens laden…</span><button id="refresh" hidden>Vernieuwen</button></div></div>
+    <p class="banner" id="data-note">Geen financieel advies, alles op papier. De radar toont een opgeslagen momentopname.</p>
+    <section class="overview" aria-label="Radar en geselecteerd signaal">
+      <div class="card radar-card">
+        <div class="card-heading"><div><p class="eyebrow">TREND-RADAR</p><h2>Kandidaten in beeld</h2></div><button id="motion" class="quiet" aria-pressed="false">Animatie pauzeren</button></div>
+        <div class="scope" id="scope"><div class="scope-grid" aria-hidden="true"><i></i><i></i><i></i><div class="sweep"></div><div class="cross horizontal"></div><div class="cross vertical"></div><span class="center-dot"></span></div><div id="blips" role="group" aria-label="Selecteer een radarsignaal"></div><p class="scope-message" id="scope-message">Signalen laden…</p></div>
+        <div class="radar-legend"><span><i class="dot ok"></i>ok-niveau</span><span><i class="dot mid"></i>verhoogd</span><span><i class="dot rug"></i>RUG-ZONE</span><span><i class="dot unknown"></i>onbekend</span></div>
+        <p class="note">Tik op een punt. Dichter bij het midden = hogere score. Posities zijn geen geografische locaties; de animatie is geen nieuwe scan.</p>
+      </div>
+      <div class="card selection-card"><div class="card-heading"><div><p class="eyebrow">GESELECTEERD SIGNAAL</p><h2 id="selected-title">Kies een kandidaat</h2></div><span id="selected-chain" class="chain"></span></div><div id="selected" aria-live="polite"><p class="muted">Details verschijnen zodra er kandidaten beschikbaar zijn.</p></div><div class="signal-foot"><span class="signal-line" aria-hidden="true"></span><p>Een hoge score is een signaal om te onderzoeken, geen koopadvies.</p></div></div>
+    </section>
+    <section class="card chart-card" aria-labelledby="chart-title">
+      <div class="card-heading"><div><p class="eyebrow">KOERS &amp; CONTEXT</p><h2 id="chart-title">Interactieve koersgrafiek</h2></div><a id="chart-external" class="button quiet" target="_blank" rel="noopener noreferrer" hidden>Open in DexScreener ↗</a></div>
+      <p class="note" id="chart-note">Selecteer een token in de radar of watchlist om de grafiek te openen.</p>
+      <div id="chart-host" class="chart-host"><p class="chart-empty">De koersgrafiek verschijnt hier.</p></div>
+      <p class="note">Grafiek door DexScreener, onafhankelijk van de radar-momentopname. Zoom, versleep en kies een interval in de grafiek. Werkt de ingebedde grafiek niet? Gebruik de link hierboven.</p>
+    </section>
+    <section class="card" aria-labelledby="candidates-title"><div class="card-heading"><div><p class="eyebrow">SIGNAALOVERZICHT</p><h2 id="candidates-title">Radar — kandidaten</h2></div><span id="candidate-count" class="chain">—</span></div><div id="radar" class="candidate-list">Laden…</div></section>
+    <section class="card" aria-labelledby="portfolio-title"><div class="card-heading"><div><p class="eyebrow">VIRTUEEL RESULTAAT</p><h2 id="portfolio-title">Papieren portefeuille</h2></div><span class="paper">PAPER</span></div><div id="pf">Laden…</div></section>
+    <section class="card" aria-labelledby="stocks-title"><div class="card-heading"><div><p class="eyebrow">AANDELEN</p><h2 id="stocks-title">Technische rangorde</h2></div></div><div id="stocks">Laden…</div></section>
+    <section class="card" aria-labelledby="watchlist-title"><div class="card-heading"><div><p class="eyebrow">BLIJF VOLGEN</p><h2 id="watchlist-title">Watchlist</h2></div></div><div id="wl">Laden…</div></section>
+    <noscript><p class="banner">Schakel JavaScript in om de radar en gegevens te bekijken.</p></noscript>
+  </main>
+  <footer><span class="brand">Crypto<span>Dokter</span></span><p>Geen financieel advies, alles op papier. Micro-caps kunnen hun volledige waarde verliezen.<br>Dit dashboard plaatst geen orders.</p></footer>
+</body>
+</html>
